@@ -1,0 +1,758 @@
+@media only screen and (device-width: 768px) {
+    .box2 {
+        height: 85px !important;
+        line-height: 85px !important;
+        font-size: large;
+        font-weight: 300;
+        border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+      
+
+
+    .line-height{
+        line-height: 23px !important;
+    }   
+
+    .padding-0{
+        padding: 0;
+    }
+    .process-top{
+        margin-top: 80px;
+    }
+
+    .box{
+        border-radius: 15px !important;
+    }
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .instruction-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(45, 62, 86, .9);
+    }
+      
+    .instruction-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        height: fit-content;
+        z-index: 999;
+    }
+
+    .instruction-container .img-container{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .instruction-container img{
+        /* width: 150px; */
+        height: 100%;
+    }
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+
+    .banner{
+        /* height: 100%; */
+        /* overflow: hidden;
+        display: flex;
+        align-content: flex-end; */
+      }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+        }
+
+      .btn-center{
+        height: 100px !important;
+         width: 100px !important;
+    }
+
+    .full-image{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .container-b{
+        border-radius: 15px; 
+        width: 100%; 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn-avatar{
+        border: 3px solid #eee !important;
+        cursor: pointer;
+    }
+
+    .avatar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .nav-left-container{
+        margin-left: 5px;
+    }
+
+    .nav-right-container{
+        margin-right: 5px;
+    }
+
+    .bottom-container{
+        margin-bottom: 5px;
+    }
+
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 150%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+
+
+    .wrapper{
+        overflow-x: auto;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #2D3E56;    
+    }
+ }
+ /* different techniques for iPad screening */
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)  and (device-aspect-ratio: 3/4) {
+   /* For portrait layouts only */
+   .box{
+    border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+
+    .process-top{
+        margin-top: 80px;
+    }
+
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .instruction-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(45, 62, 86, .9);
+    }
+      
+    .instruction-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        height: fit-content;
+        z-index: 999;
+    }
+
+    .instruction-container .img-container{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .instruction-container img{
+        width: 150px;
+    }
+
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+    .banner{
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        /* align-content: flex-start; */
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .btn-center{
+        height: 100px !important;
+         width: 100px !important;
+    }
+
+    .full-image{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .container-b{
+        width: 100%; 
+        border-radius: 10px; 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+   .btn-avatar{
+        border: 3px solid #eee !important;
+        cursor: pointer;
+    }
+
+    .avatar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .nav-left-container{
+        margin-left: 5px;
+    }
+
+
+    .nav-right-container{
+        margin-right: 5px;
+    }
+
+
+    .bottom-container{
+        margin-bottom: 5px;
+    }
+
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 210%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+
+    .wrapper{
+        overflow-x: auto;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #2D3E56;    
+    }
+ }
+
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+     /* For landscape layouts only */
+
+    .box{
+        border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+
+    .process-top{
+        margin-top: 80px;
+    }
+
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .instruction-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(45, 62, 86, .9);
+    }
+      
+    .instruction-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        height: fit-content;
+        z-index: 999;
+    }
+
+    .instruction-container .img-container{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .instruction-container img{
+        width: 150px;
+    }
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+    .banner{
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        align-content: flex-end;
+    }
+
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .btn-center{
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .full-image{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .container-b{
+        width: 100%; 
+        border-radius: 10px; 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .btn-avatar{
+        border: 3px solid #eee !important;
+        cursor: pointer;
+    }
+    
+    .avatar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .nav-left-container{
+        margin-left: 5px;
+    }
+    
+    .btn-menu{
+        margin-top: 25px;
+    }
+      
+    .nav-right-container{
+        margin-right: 5px;
+    
+    }
+    
+    .bottom-container{
+        margin-bottom: 5px;
+    }
+    
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 140%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+    
+    
+    .wrapper{
+        overflow-x: auto;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #2D3E56;    
+    } 
+ }
+
+ @media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .box{
+        border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+
+    .process-top{
+        margin-top: 80px;
+    }
+
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+       .instruction-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(45, 62, 86, .9);
+    }
+      
+    .instruction-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        height: fit-content;
+        z-index: 999;
+    }
+
+    .instruction-container .img-container{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .instruction-container img{
+        width: 150px;
+    }
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 200%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+ 
+ }
+
+ @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+    .box{
+        border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .process-top{
+        margin-top: 80px;
+    }
+
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+    
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 250%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+ 
+ }
+ @media only screen and (min-device-width: 768) and (max-device-width: 1024px) {
+    .box{
+        border-radius: 15px !important;
+    }
+
+    .custom-font{
+        font-family: 'SFProDisplay-light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+      
+      color: #58585A;
+      }
+
+    .v-application--wrap{
+        overflow: hidden !important;
+    }
+    .process-top{
+        margin-top: 80px;
+    }
+
+
+    .hide-in-small-device{
+        display: none;
+    }
+
+    .instruction-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(45, 62, 86, .9);
+    }
+      
+    .instruction-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
+        width: fit-content;
+        height: fit-content;
+        z-index: 999;
+    }
+
+    .instruction-container .img-container{
+        display: flex;
+        justify-content: center;
+    }
+      
+    .instruction-container img{
+        width: 150px;
+    }
+
+    .bottom-container{
+        margin-bottom: 70px;
+    }
+
+
+    .banner{
+        /* height: 100%; */
+        /* overflow: hidden;
+        display: flex;
+        align-content: flex-end; */
+      }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+        }
+
+      .btn-center{
+        height: 100px !important;
+         width: 100px !important;
+    }
+
+    .full-image{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .container-b{
+        border-radius: 15px; 
+        width: 100%; 
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn-avatar{
+        border: 3px solid #eee !important;
+        cursor: pointer;
+    }
+
+    .avatar{
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .nav-left-container{
+        margin-left: 5px;
+    }
+
+    .nav-right-container{
+        margin-right: 5px;
+    }
+
+    .bottom-container{
+        margin-bottom: 5px;
+    }
+
+    .inner-wrapper{
+        position: relative;
+        overflow: hidden;
+        width: 150%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        left: 0;
+    }
+
+
+    .wrapper{
+        overflow-x: auto;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #2D3E56;    
+    }
+ 
+ }
+

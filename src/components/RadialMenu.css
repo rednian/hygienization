@@ -1,0 +1,69 @@
+div.radialMenu {
+    position: relative;
+    /* margin: 10px; */
+    user-select: none;
+    -moz-user-select: none;
+    /* margin: 0 auto; */
+    /* vertical-align: middle; */
+    /* position: relative; */
+    /* top: ; */
+  
+}
+
+div.radialMenu > svg.icons {
+    display: none;
+}
+
+div.radialMenu > svg.menu {
+    position: absolute;
+    overflow: visible;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+div.radialMenu > svg.menu.inner {
+    transform: scale(0.66) rotate(-10deg);
+    opacity: 0;
+    visibility: hidden;
+}
+
+div.radialMenu > svg.menu.outer {
+    transform: scale(1.5) rotate(10deg);
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+div.radialMenu > svg.menu > g > path {
+    fill: #000000d1;
+    
+}
+
+div.radialMenu > svg.menu > g.sector > path {
+    cursor: pointer;
+}
+
+div.radialMenu > svg.menu > g.sector > text,
+div.radialMenu > svg.menu > g.sector > use {
+    cursor: pointer;
+    fill: white;
+}
+
+div.radialMenu > svg.menu > g.sector.selected > path {
+    fill: #2196f3c9  !important;
+}
+
+div.radialMenu > svg.menu > g.center:hover > circle {
+    fill: #B0BEC5;
+}
+
+div.radialMenu > svg.menu > g.center > circle {
+    cursor: pointer;
+    fill: #00000080;
+}
+
+div.radialMenu > svg.menu > g.center > text,
+div.radialMenu > svg.menu > g.center > use {
+    cursor: pointer;
+    fill: white;
+}

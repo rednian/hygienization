@@ -1,0 +1,220 @@
+{
+    
+    {
+        bg: require('@/assets/images/main/1.jpg'),
+        // bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/8a41ac1f3447abaf306a6aac174d0ig/0320001800locc/source.jpg', 
+        width: 3200,
+        slug: null,
+        parent: null, 
+        name: 'home', 
+        link: '/',
+        x: '0', 
+        y: '0'
+    },
+
+    //Villa main
+    {
+        // bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/5c66aaf2a6b268f1637b4ab3fac80ig/0320001800locc/source.jpg', 
+        bg: require('@/assets/images/exterior/villa.jpg'),
+        width: 3200, 
+        parent: 'main', 
+        link: 'villa',
+        name: 'Villa', 
+        x: '40', 
+        y: '45'
+    },
+    //apartmnent main
+    {
+        // bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/5c66aaf2a6b268f1637b4ab3fac80ig/0320001800locc/source.jpg', 
+        bg: require('@/assets/images/exterior/apartment.jpg'),
+        width: 3200, 
+        parent: 'main', 
+        link: 'apartment',
+        name: 'Apartment', 
+        x: '20', 
+        y: '30'
+    },
+
+    //Nursery main
+    {
+        bg: require('@/assets/images/floor_plan/nursery.jpg'), 
+        width: 3200, 
+        parent: 'main', 
+        link: 'nusery',
+        name: 'Nursery', 
+        x: '30', 
+        y: '50'
+    },
+
+    // Gym main
+
+    {
+        bg: require('@/assets/images/floor_plan/gym.jpg'),  
+        width: 3200, 
+        parent: 'main', 
+        link: 'gym',
+        name: 'Gym', 
+        x: '50', 
+        y: '35'
+    },
+
+    //Gym > Reception main 
+
+    {
+        id: 1, 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/29b56fe38ac3001c27ed44b7b6fb0ig/0383701800locc/source.jpg', 
+        parent: 'gym', 
+        link: 'gym-reception' ,
+        name: 'Reception', 
+        x: '30', 
+        y: '60', 
+    },
+
+    // Gym > Reception > Items
+      {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'gym-reception', 
+        link: 'clinic-reception-protocol-1' ,
+        name: 'Protocol Test 1', 
+        x: '70', 
+        y: '50'
+    },
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'gym-reception', 
+        link: 'clinic-reception-protocol-2' ,
+        name: 'Protocol Test 2', 
+        x: '50', 
+        y: '30'
+    },
+
+
+    // Gym > Toilet main
+    {
+        id: 3, 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/5d185575dd988714acabb66388a30ig/0314901800locc/source.jpg', 
+        parent: 'gym', 
+        link: 'gym-toilet',
+        name: 'Toilet', 
+        x: '40', 
+        y: '78', 
+    },
+
+    // Gym > toilet > Items
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'gym-toilet', 
+        link: 'clinic-reception-protocol-1' ,
+        name: 'Protocol Test 1', 
+        x: '70', 
+        y: '50'
+    },
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'gym-toilet', 
+        link: 'clinic-reception-protocol-2' ,
+        name: 'Protocol Test 2', 
+        x: '50', 
+        y: '30'
+    },
+
+
+
+    //Clinic main
+    {
+        width: 32000, 
+        parent: 'main', 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/5a0a997ea7e0d20f797beb3f13f60ig/0317701800locc/source.jpg', 
+        link: 'clinics', 
+        name: 'Clinics', 
+        x: '70', 
+        y: '40'
+    },
+
+    //clinics > reception
+    {
+        id: 1, 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/29b56fe38ac3001c27ed44b7b6fb0ig/0383701800locc/source.jpg', 
+        parent: 'clinics', 
+        link: 'reception' ,
+        name: 'Reception', 
+        x: '40', 
+        y: '60', 
+    },
+
+    // clinic > reception > items
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'reception', 
+        link: 'clinic-reception-protocol-1' ,
+        name: 'Protocol Test 1', 
+        x: '70', 
+        y: '50'
+    },
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'reception', 
+        link: 'clinic-reception-protocol-2' ,
+        name: 'Protocol Test 2', 
+        x: '50', 
+        y: '30'
+    },
+
+    //clinics > medical examination room  - main
+    {
+        id: 2, 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/4912830f03cb4da5bf1bd82c85e00ig/0333301800locc/source.jpg', 
+        parent: 'clinics', 
+        link: 'medical-examination-room' ,
+        name: 'Medical Examination Room', 
+        x: '55', 
+        y: '40', 
+    },
+
+    // clinic > toilet > items
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'medical-examination-room', 
+        link: 'clinic-reception-protocol-1' ,
+        name: 'Protocol Test 1', 
+        x: '70', 
+        y: '50'
+    },
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'medical-examination-room', 
+        link: 'clinic-reception-protocol-2' ,
+        name: 'Protocol Test 2', 
+        x: '50', 
+        y: '30'
+    },
+
+    //clinics > toilet -  main
+    {
+        id: 3, 
+        bg: 'https://d3tcnlppr6dh8j.cloudfront.net/f/5d185575dd988714acabb66388a30ig/0314901800locc/source.jpg', 
+        parent: 'clinics', 
+        link: 'clinics-toilet',
+        name: 'Toilet', 
+        x: '20', 
+        y: '50', 
+    }, 
+
+    // clinic > toilet > items
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'clinics-toilet', 
+        link: 'clinic-reception-protocol-1' ,
+        name: 'Protocol Test 1', 
+        x: '70', 
+        y: '50'
+    },
+    {
+        bg: '../assets/bg/dentist/bg.jpg', 
+        parent: 'clinics-toilet', 
+        link: 'clinic-reception-protocol-2' ,
+        name: 'Protocol Test 2', 
+        x: '50', 
+        y: '30'
+    },
+}
